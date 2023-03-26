@@ -1,0 +1,10 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: var(--tg-theme-text-color);
+    background-color: var(--tg-theme-bg-color);
+}
