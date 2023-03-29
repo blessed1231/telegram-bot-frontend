@@ -4,11 +4,12 @@ import {useTelegram} from "../Hooks/useTelegram.jsx";
 
 const Header = () => {
 const {user, onClose} = useTelegram()
+    console.log(user.username)
     return (
         <div className="header">
             <Button onClick={onClose}>Закрыть</Button>
             <span className="username">
-                {user?.username}
+                {user.username}
             </span>
         </div>
     );
