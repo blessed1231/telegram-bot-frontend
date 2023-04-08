@@ -29,12 +29,12 @@ const Form = () => {
         })
     })
 
-    // useEffect(() => {
-    //     if (!city || !country ) {
-    //         tg.MainButton.hide()
-    //     } else {
-    //         tg.MainButton.show()
-    //     }
+    useEffect(() => {
+        if (!city || !country ) {
+            tg.MainButton.hide()
+        } else {
+            tg.MainButton.show()
+        }})
 
     const onChangeSubject = (e) => {
         setSubject(e.target.value)
